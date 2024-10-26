@@ -23,7 +23,7 @@ import InstructorLibroVuelo from './views/Instructor/InstructorLibroVuelo';
 import InstructorPerfil from './views/Instructor/InstructorPerfil';
 
 import { useRole } from './context/RoleContext';
-import './Styles/Index.css'
+import './styles/Index.css';
 
 function ProtectedRoute({ component: Component, allowedRoles, ...rest }) {
   const { role } = useRole();

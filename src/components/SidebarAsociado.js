@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import '../Styles/sidebar.css'
+import '../styles/sidebar.css'
 
 import { useRole } from '../context/RoleContext';
 
